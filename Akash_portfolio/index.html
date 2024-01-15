@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Verma || Portfolio</title>
+    <link rel="icon" href="./img/port6.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#"><span>Port</span>folio</a>
+        </div>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="nav-bar">
+            <a href="#home" class="active" style="--i:1">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#services" style="--i:4">Certificates</a>
+            <a href="#portfolio" style="--i:5">Projects</a>
+            <a href="#footer" style="--i:6">Contact</a>
+        </nav>
+    </header>
+    <div id="progress">
+        <span id="progress-value"><i class='bx bxs-chevron-up'></i></span>
+    </div>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Akash Verma</h1>
+            <h3>And I'm a <span class="auto"></span></h3>
+            <p style="font-size: 18px;">I am a proactive learner with extensive knowledge in programming languages.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/akash-verma-97b12a1a4/" style="--i:6" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+
+                <a href="https://leetcode.com/akash5209/" style="--i:7" target="_blank"><i
+                        class='bx bxl-c-plus-plus'></i></a>
+
+                <a href="https://github.com/Aakash5209" style="--i:8" target="_blank"><i class='bx bxl-github'></i></a>
+
+                <a onclick="copyEmail()" style="--i:8" target="_blank"><i class='bx bxl-gmail'></i></a>
+
+                <a style="--i:8" onclick="copyPhoneNumber()"><i class='bx bxl-whatsapp'></i></a>
+
+
+            </div>
+            <div class="Btn">
+                <a href="/Akash_Verma_Resume.pdf" class="btn" target="_blank">Download CV</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="/developing-employees-by-gender-m.webp">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/Untitled-design-33.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">
+                About <span>Me</span>
+            </h2>
+            <h3 class="title" style="font-size: 30px">MERN Stack Developer</h3>
+            <p style="font-size: 25px">
+                This is Akash Verma. I had done my gradutaion in 2023 with a degree in Electrical
+                Engineering, I possess
+                a strong foundation in computer science complemented by my proficiency in C++, a robust understanding of
+                data structures, and versatility in MERN Stack, Java, JavaScript, and SQL.
+                My commitment to
+                continuous learning is reflected in my certifications in C++, Java, and the MERN Stack. Eager to
+                contribute to your esteemed team. I am prepared for immediate joining and willing to relocate. My
+                diverse skill set, coupled with a background in Electrical Engineering, positions me as a dynamic and
+                valuable addition to any tech-driven project.
+            </p>
+            <a href="#about" class="btn" onclick="readMore(this)">Read More</a>
+        </div>
+
+    </section>
+
+    <!-- Skill Section  -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-bar">
+                <div class="bar">
+                    <div class="info">
+                        <span>HTML / CSS</span>
+                    </div>
+                    <div class="progress-line HTML">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line MySql">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>MERN Stack</span>
+                    </div>
+                    <div class="progress-line JS">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>C++</span>
+                    </div>
+                    <div class="progress-line HTML">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Data Structures & Algorithm</span>
+                    </div>
+                    <div class="progress-line MySql">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Java<span>
+                    </div>
+                    <div class="progress-line Java">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>DBMS</span>
+                    </div>
+                    <div class="progress-line Cpp">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="redial-container">
+                    <div class="circular-progress teamwork-redial">
+                        <span class="progress-value teamwork">0%</span>
+                    </div>
+                    <span class="red-heading">Team Work</span>
+                </div>
+
+                <div class="redial-container">
+                    <div class="circular-progress creativity-redial">
+                        <span class="progress-value creativity">0%</span>
+                    </div>
+                    <span class="red-heading">Creativity</span>
+                </div>
+
+                <div class="redial-container">
+                    <div class="circular-progress problem-redial">
+                        <span class="progress-value problem">0%</span>
+                    </div>
+                    <span class="red-heading">Problem Solving</span>
+                </div>
+
+                <div class="redial-container">
+
+                    <div class="circular-progress communication-redial">
+                        <span class="progress-value communication">0%</span>
+                    </div>
+                    <span class="red-heading">Communication</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Certificates</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>MERN Stack Web Development</h3>
+                <p>I successfully completed a certification in Full Stack Web Development, focusing on
+                    the MERN (MongoDB, Express.js, React.js, Node.js) stack. </p>
+                <p>This program focused on designing and implementing full-stack solutions, emphasizing the development
+                    of RESTful APIs and practical insights for dynamic, responsive interfaces. Real-world projects
+                    strengthened my proficiency MERN stack technologies.</p>
+
+                <a href="https://drive.google.com/file/d/1uuj0UuzZN6oZxFcL3bSmDaU8tayLOXQh/view?usp=sharing"
+                    target="-blank" class="btn"> View</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>C++ programming</h3>
+                <p>I successfully completed a C++ certification course on Udemy, where I gained comprehensive knowledge
+                    from basic to advanced C++ programming concepts and having proficiency in C++ along with Data
+                    Structure. </p>
+                <p>The course also delved into the principles of object-oriented programming (OOP), and I applied my
+                    learning in a console-based project. This experience, acquired a year ago, has provided me with a
+                    strong foundation in C++ and OOP, empowering me to develop efficient code. </p>
+                <a href="https://drive.google.com/file/d/1oFdsCRipFrziylZM2ZYT1kvDk9iWv22w/view" target="-blank"
+                    class="btn">View</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-java'></i>
+                <h3>Core Java </h3>
+                <p>I completed a Java certification course on Internshala, where I gained a comprehensive understanding
+                    of Java programming,
+                </p>
+                <p>The course included in-depth coverage of object-oriented programming principles. I successfully
+                    completed a project involving the development of an employee
+                    management system. This certification has not only equipped me with strong Java programming skills
+                    but also provided hands-on experience in real-world project implementation.</p>
+                <a href="https://drive.google.com/file/d/14fw5MPpAZqLShxdhYeD6gY8aw1M_L1f4/view" target="-blank"
+                    class="btn">View</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section portfolio -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="./img/taskify.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Taskify</h4>
+                    <p>Taskify is a dynamic task tracker application developed using the MERN stack,</p>
+                    <a href="https://github.com/Aakash5209/Taskify.git" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="portfolio-box">
+                <img src="./img/face_mask.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Gate Access Control using Mask Detection</h4>
+                    <p>The system is designed to enhance safety by automatically controlling gate access based on the
+                        detection of face masks.</p>
+                    <a href="https://github.com/Aakash5209/Gate_Access_control_by_Face_mask" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="./img/studentRegis.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Student Registration System</h4>
+                    <p>Developed a dynamic student registration application to register the student.</p>
+                    <a href="https://github.com/Aakash5209/Student-Registration-system.git" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+
+
+            <div class="portfolio-box">
+                <img src="./img/weather-wave.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather Wave</h4>
+                    <p>User-friendly web application using HTML, CSS, and JavaScript, incorporating a Weather API to
+                        provide real-time temperature information for user-specified locations.</p>
+                    <a href="https://github.com/Aakash5209/Weather-wave.git" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="portfolio-box">
+                <img src="./img/task_tracker.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Task Tracker App</h4>
+                    <p>The Task Tracker app is a user-friendly web application built using HTML, CSS, and JavaScript
+                        which provide user to record their task. </p>
+                    <a href="https://github.com/Aakash5209/Task-Tracker-" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./img/firepro.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Autonomous Fire Fighting Robot Using Image Processing</h4>
+                    <p> Developed a fire detection and suppression system that initializes, locates, and extinguishes
+                        fires using a robot equipped with
+                        servo control and a water pump.</p>
+                    <a href="https://github.com/Aakash5209/Fire_detection_img_processing.git" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./img/staticweb.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>MyOderMeal-static website</h4>
+                    <p>This is the static website which can be used to order and delive rthe food</p>
+                    <a href="https://github.com/Aakash5209/Food_delivery_website.git" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact" id="contact">
+        <h2 class="heading">
+            Contact <span>Me!</span>
+        </h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="E-mail Address">
+                <input type="number" placeholder="Mobile Number">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write Your Querry"></textarea>
+            <input type="submit" onclick="send()" value="Send Message " class="btn">
+        </form>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="button whatsaap">
+            <div class="icon"><i class='bx bxl-whatsapp'></i></div>
+            <span onclick="makeCall()">7668958795</span>
+        </div>
+        <div class="button mail">
+            <div class="icon"><i class='bx bxl-gmail'></i></div>
+            <span onclick="makeEmail()">akash.verma.5209@gmail.com</span>
+        </div>
+
+        <div class="button mail">
+            <div class="icon"><i class='bx bx-location-plus'></i></div>
+            <span>Aligarh, &nbsp; 202001 &nbsp; Uttar Pradesh</span>
+        </div>
+
+
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed Js -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
